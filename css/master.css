@@ -1,0 +1,746 @@
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+nav,
+section,
+summary {
+    display: block
+}
+
+audio,
+canvas,
+video {
+    display: inline-block;
+    *display: inline;
+    *zoom: 1
+}
+
+audio:not([controls]) {
+    display: none;
+    height: 0
+}
+
+[hidden] {
+    display: none
+}
+
+html {
+    font-family: sans-serif;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    font-size: 100%
+}
+
+body {
+    margin: 0
+}
+
+a:focus {
+    outline: thin dotted
+}
+
+a:active,
+a:hover {
+    outline: 0
+}
+
+p,
+pre {
+    margin: 1em 0
+}
+
+blockquote {
+    margin: 1em 40px
+}
+
+h1 {
+    font-size: 2em;
+    margin: .67em 0
+}
+
+h2 {
+    font-size: 1.5em;
+    margin: .83em 0
+}
+
+h3 {
+    font-size: 1.17em;
+    margin: 1em 0
+}
+
+h4 {
+    font-size: 1em;
+    margin: 1.33em 0
+}
+
+h5 {
+    font-size: .83em;
+    margin: 1.67em 0
+}
+
+h6 {
+    font-size: .67em;
+    margin: 2.33em 0
+}
+
+b,
+strong {
+    font-weight: 700
+}
+
+dfn {
+    font-style: italic
+}
+
+hr {
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    -o-box-sizing: content-box;
+    -ms-box-sizing: content-box;
+    box-sizing: content-box;
+    height: 0
+}
+
+mark {
+    background: #ff0;
+    color: #000
+}
+
+code,
+kbd,
+pre,
+samp {
+    font-family: 'Bitstream Vera Sans Mono', Consolas, Courier, monospace, serif;
+    _font-family: 'courier new', 'Bitstream Vera Sans Mono', Consolas, Courier, monospace;
+    font-size: 1em
+}
+
+pre {
+    white-space: pre-wrap
+}
+
+q {
+    quotes: "\201C" "\201D" "\2018" "\2019"
+}
+
+small {
+    font-size: 80%
+}
+
+sub,
+sup {
+    font-size: 75%;
+    line-height: 0;
+    position: relative;
+    vertical-align: baseline
+}
+
+sup {
+    top: -.5em
+}
+
+sub {
+    bottom: -.25em
+}
+
+dl,
+menu,
+ol,
+ul {
+    margin: 1em 0;
+    padding: 0 0 0 40px
+}
+
+dl {
+    padding: 0
+}
+
+dd {
+    margin: 0 0 0 40px
+}
+
+nav ol,
+nav ul {
+    list-style: none;
+    list-style-image: none
+}
+
+img {
+    border: 0;
+    -ms-interpolation-mode: bicubic
+}
+
+svg:not(:root) {
+    overflow: hidden
+}
+
+figure,
+form {
+    margin: 0
+}
+
+fieldset {
+    margin: 0 2px;
+    border: 1px solid silver;
+    padding: .35em .625em .75em
+}
+
+legend {
+    border: 0;
+    padding: 0;
+    *margin-left: -7px
+}
+
+button,
+input,
+select,
+textarea {
+    font-family: inherit;
+    font-size: 100%;
+    margin: 0;
+    vertical-align: baseline;
+    *vertical-align: middle
+}
+
+button,
+input {
+    line-height: normal
+}
+
+button,
+select {
+    text-transform: none
+}
+
+button,
+html input[type=button],
+input[type=reset],
+input[type=submit] {
+    -webkit-appearance: button;
+    cursor: pointer;
+    *overflow: visible
+}
+
+button[disabled],
+html input[disabled] {
+    cursor: default
+}
+
+input[type=checkbox],
+input[type=radio] {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0;
+    *height: 13px;
+    *width: 13px
+}
+
+input[type=search] {
+    -webkit-appearance: textfield;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    -o-box-sizing: content-box;
+    -ms-box-sizing: content-box;
+    box-sizing: content-box
+}
+
+input[type=search]::-webkit-search-cancel-button,
+input[type=search]::-webkit-search-decoration {
+    -webkit-appearance: none
+}
+
+:-moz-focus-inner,
+input::-moz-focus-inner {
+    border: 0;
+    padding: 0
+}
+
+textarea {
+    overflow: auto;
+    vertical-align: top
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0
+}
+
+body {
+    font-family: "Helvetica Neue", HelveticaNeue, Helvetica, Arial, sans-serif;
+    font-size: 96.9%;
+    font-size: 15px;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    color: #555;
+    background: #efefef;
+}
+
+p {
+    width: 90%
+}
+
+a,
+a:visited {
+    color: #333
+}
+
+a:hover,
+a:visited:hover {
+    color: #111;
+    text-decoration: underline
+}
+
+
+#container {
+    padding: 0 50px;
+    max-width: 900px;
+    margin: 0 auto
+}
+
+#container div {
+	margin-bottom: 50px;
+	    line-height: 140%;
+}
+
+
+#inner {
+    max-width: 900px;
+    padding: 0 50px;
+    margin: 0 auto;
+    position: relative
+}
+
+#logo {
+    margin-bottom: 30px;
+    background: #333;
+    padding: 50px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    margin-left: -50px;
+    margin-right: -50px;
+    color: #fff;
+    position: relative
+}
+
+#about {
+    margin: 0 -50px;
+    padding: 50px;
+    padding-top: 10px
+}
+
+#strand {
+    background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAASoAAAClCAYAAADrq7CWAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA3NpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNS1jMDE0IDc5LjE1MTQ4MSwgMjAxMy8wMy8xMy0xMjowOToxNSAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo0NTdkZWJlNi00ZjU5LTQyNmEtODU3Mi0zMTJkMzk3ODg5OTQiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6RjNENDkzN0E5Q0VCMTFFNDk4NTU4ODdGNjEzMTE0N0MiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6RjNENDkzNzk5Q0VCMTFFNDk4NTU4ODdGNjEzMTE0N0MiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENDIChNYWNpbnRvc2gpIj4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6OTY3NzMzNWMtMjFhOS00OTJkLWJlYjQtYzU4YWRlYTlhZDNjIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjQ1N2RlYmU2LTRmNTktNDI2YS04NTcyLTMxMmQzOTc4ODk5NCIvPiA8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);
+    width: 270px;
+    height: 260px;
+    position: absolute;
+    top: -20px;
+    right: 0;
+    -webkit-filter: alpha(Opacity=10);
+    -moz-filter: alpha(Opacity=10);
+    -o-filter: alpha(Opacity=10);
+    -ms-filter: alpha(Opacity=10);
+    filter: alpha(Opacity=10);
+    opacity: .1
+}
+
+#head {
+    margin-top: 10px;
+    color: #fff;
+    margin-bottom: 0;
+    padding: 10px 0
+}
+
+h1.nobold {
+    font-size: 36px;
+    font-weight: 400;
+    margin: 0
+}
+
+h1.smaller {
+    font-size: 24px
+}
+
+h1 strong {
+    text-shadow: 0 2px 2px #555;
+    text-shadow: 0 -1px 0 #303030
+}
+
+ul#projects {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 40px
+}
+
+ul#projects a {
+    display: block
+}
+
+ul#projects li {
+    width: 97%;
+    height: 50px;
+    background: #42994a;
+    padding: 15px;
+    margin: 20px;
+    margin-bottom: 10px;
+    -webkit-transform: translateZ(0);
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -o-transition: all 1s;
+    -ms-transition: all 1s;
+    transition: all 1s;
+    -moz-filter: alpha(Opacity=90);
+    -o-filter: alpha(Opacity=90);
+    -ms-filter: alpha(Opacity=90);
+    filter: alpha(Opacity=90);
+    opacity: .9;
+    -webkit-filter: grayscale(100%);
+    margin-left: 0
+}
+
+ul#projects li:hover {
+    -webkit-transition: all 200ms;
+    -moz-transition: all 200ms;
+    -o-transition: all 200ms;
+    -ms-transition: all 200ms;
+    transition: all 200ms;
+    -webkit-filter: alpha(Opacity=100);
+    -moz-filter: alpha(Opacity=100);
+    -o-filter: alpha(Opacity=100);
+    -ms-filter: alpha(Opacity=100);
+    filter: alpha(Opacity=100);
+    opacity: 1
+}
+
+ul#projects li a:hover {
+    color: #fff
+}
+
+ul#projects li p {
+    color: rgba(255, 255, 255, .8);
+    width: 100%;
+    display: block;
+    margin-top: 5px;
+    font-style: italic;
+    height: 80px
+}
+
+ul#projects li span.date {
+    float: right;
+    -webkit-filter: alpha(Opacity=100);
+    -moz-filter: alpha(Opacity=100);
+    -o-filter: alpha(Opacity=100);
+    -ms-filter: alpha(Opacity=100);
+    filter: alpha(Opacity=100);
+    opacity: 1;
+    margin-top: -20px
+}
+
+ul#projects li span.date.black {
+    color: #000
+}
+
+ul#projects li a {
+    text-decoration: none
+}
+
+ul#projects li h3 {
+    margin: 0;
+    padding: 0;
+    font-size: 18px
+}
+
+ul#projects #ceti {
+    background: url(../img/projects/pagoda_smaller.jpg);
+    -webkit-background-size: 100% auto;
+    -moz-background-size: 100% auto;
+    -o-background-size: 100% auto;
+    -ms-background-size: 100% auto;
+    background-size: 100% auto
+}
+
+ul#projects #blueprint {
+    background: url(../img/projects/blueprint_smaller.jpg);
+    -webkit-background-size: 100% auto;
+    -moz-background-size: 100% auto;
+    -o-background-size: 100% auto;
+    -ms-background-size: 100% auto;
+    background-size: 100% auto
+}
+
+ul#projects #c7503 {
+    background: url(../img/projects/pcb_smaller.jpg);
+    -webkit-background-size: 100% auto;
+    -moz-background-size: 100% auto;
+    -o-background-size: 100% auto;
+    -ms-background-size: 100% auto;
+    background-size: 100% auto
+}
+
+ul#projects #nixie {
+    background: url(../img/projects/nixie_case.jpg);
+    -webkit-background-size: 110% auto;
+    -moz-background-size: 110% auto;
+    -o-background-size: 110% auto;
+    -ms-background-size: 110% auto;
+    background-size: 110% auto;
+    background-position: -50px -110px
+}
+
+ul#projects #avr {
+    background: url(../img/projects/mobile/arduino.jpg);
+    -webkit-background-size: 100% auto;
+    -moz-background-size: 100% auto;
+    -o-background-size: 100% auto;
+    -ms-background-size: 100% auto;
+    background-size: 100% auto;
+    background-position: 0 -400px
+}
+
+h3 {
+    margin-top: 0
+}
+
+table#projects {
+    list-style-type: none;
+    margin: 0;
+    padding: 0
+}
+
+table#projects tr {
+    margin: 0;
+    padding: 0
+}
+
+table#projects tr td {
+    vertical-align: top;
+    padding-bottom: 20px;
+    font-style: italic
+}
+
+table#projects tr td img {
+    width: 90px;
+    height: auto;
+    max-height: 120px;
+    margin-right: 20px;
+    -webkit-filter: alpha(Opacity=100);
+    -moz-filter: alpha(Opacity=100);
+    -o-filter: alpha(Opacity=100);
+    -ms-filter: alpha(Opacity=100);
+    filter: alpha(Opacity=100);
+    opacity: 1
+}
+
+table#projects tr span {
+    margin: 0;
+    padding-bottom: 5px;
+    display: block;
+    font-style: normal;
+    font-weight: 700
+}
+
+table#projects tr td:first-child {
+    width: 120px;
+    font-style: normal
+}
+
+table#projects tr a {
+    color: #333;
+    text-decoration: none
+}
+
+table#projects tr a.label {
+    text-decoration: none;
+    font-style: normal
+}
+
+ul#posts {
+    list-style-type: none;
+    margin-bottom: 40px;
+    margin-left: 0;
+    padding-left: 10px
+}
+
+ul#posts li strong {
+    padding-right: 20px
+}
+
+ul#posts li a {
+    color: #999
+}
+
+abbr[title] {
+    text-decoration: none;
+    border: 0
+}
+
+@media (max-width:900px) {
+    ul#projects #blueprint,
+    ul#projects #ceti {
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        -ms-background-size: cover;
+        background-size: cover
+    }
+    ul#projects #c7503,
+    ul#projects #nixie {
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        -ms-background-size: cover;
+        background-size: cover;
+        background-position: 0
+    }
+    ul#projects #avr {
+        background: url(../img/projects/mobile/arduino.jpg);
+        -webkit-background-size: auto;
+        -moz-background-size: auto;
+        -o-background-size: auto;
+        -ms-background-size: auto;
+        background-size: auto
+    }
+    ul#projects li {
+        -webkit-filter: grayscale(100%);
+        height: 80px;
+        margin-top: 10px
+    }
+    ul#projects li span.date {
+        float: none
+    }
+    ul#projects li span.date.black {
+        color: #fff
+    }
+}
+
+@media (max-width:600px) {
+    #head {
+        margin-top: 15px
+    }
+    #head h1 {
+        font-size: 30px
+    }
+    #head h1.smaller {
+        font-size: 20px
+    }
+    #strand {
+        top: 0;
+        right: 0;
+        -webkit-filter: alpha(Opacity=8);
+        -moz-filter: alpha(Opacity=8);
+        -o-filter: alpha(Opacity=8);
+        -ms-filter: alpha(Opacity=8);
+        filter: alpha(Opacity=8);
+        opacity: .08;
+        margin-right: -140px
+    }
+}
+
+@media (max-width:500px) {
+    #container {
+        padding: 20px;
+        padding-top: 0
+    }
+    #logo {
+        margin-top: 0;
+        padding-top: 20px;
+        padding-bottom: 10px;
+        margin-bottom: 10px
+    }
+    #head {
+        margin-top: 10px
+    }
+    #head h1 {
+        font-size: 26px
+    }
+    #head h1.smaller {
+        font-size: 17px
+    }
+    ul#projects {
+        margin-bottom: 0
+    }
+    ul#projects #ceti {
+        background: url(../img/projects/pagoda_smaller.jpg);
+        -webkit-background-size: auto 100%;
+        -moz-background-size: auto 100%;
+        -o-background-size: auto 100%;
+        -ms-background-size: auto 100%;
+        background-size: auto 100%
+    }
+    ul#projects #blueprint {
+        background: url(../img/projects/blueprint_smaller.jpg);
+        -webkit-background-size: auto 100%;
+        -moz-background-size: auto 100%;
+        -o-background-size: auto 100%;
+        -ms-background-size: auto 100%;
+        background-size: auto 100%
+    }
+    ul#projects #c7503 {
+        background: url(../img/projects/pcb_smaller.jpg);
+        -webkit-background-size: auto 100%;
+        -moz-background-size: auto 100%;
+        -o-background-size: auto 100%;
+        -ms-background-size: auto 100%;
+        background-size: auto 100%
+    }
+    ul#projects li {
+        width: 90%;
+        margin-left: 0
+    }
+    ul#projects li span.date.black {
+        color: #fff
+    }
+    ul#projects li h3 {
+        font-size: 16px
+    }
+    #face {
+        padding-bottom: 300px
+    }
+}
+
+@media (max-width:480px) {
+    body {
+        overflow: hidden;
+        overflow-y: auto
+    }
+    #logo img {
+        width: 48px
+    }
+    #inner {
+        padding-left: 20px
+    }
+    #head {
+        margin-top: 0
+    }
+    #head h1 {
+        font-size: 22px
+    }
+    #head h1.smaller {
+        font-size: 14.5px
+    }
+    #face {
+        width: 100px;
+        padding-right: 20px;
+        padding-bottom: 300px
+    }
+    h3 {
+        margin-top: 20px
+    }
+    ul#projects li h3 {
+        font-size: 16px
+    }
+    ul#projects li p,
+    ul#projects li span {
+        font-size: 12px
+    }
+}
